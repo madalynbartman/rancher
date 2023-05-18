@@ -1,0 +1,8 @@
+apiVersion: v1
+name: rancher-do-cluster-template
+description: RKE2 Cluster template for DO
+version: 0.3.1
+annotations:
+  catalog.cattle.io/type: cluster-template
+  catalog.cattle.io/namespace: fleet-default
+  #taken from https://github.com/bashofmann/rancher-cluster-templates/blob/main/charts/rancher-do-cluster-template/Chart.yaml

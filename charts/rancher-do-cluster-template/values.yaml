@@ -1,0 +1,9 @@
+cluster:
+  name: do-cluster
+
+cloudCredentialSecretName: ""
+
+nodepool:
+  size: s-2vcpu-4gb
+  count: 1
+  #taken fro https://github.com/bashofmann/rancher-cluster-templates/blob/main/charts/rancher-do-cluster-template/values.yaml
